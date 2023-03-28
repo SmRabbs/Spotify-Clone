@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Source/favicon-spotify.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Source/logo.png" alt="">Spotify</li>
+            <li class="hover">Home</li>
+            <li class="hover">About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of Bollywood</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Tujhe kitna chahne lage</span>
+                    <span class="songlistplay"><span class="timestamp">3:38 <i id="0" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Taweez bana ke</span>
+                    <span class="songlistplay"><span class="timestamp">6:09 <i id="1" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Kesariya</span>
+                    <span class="songlistplay"><span class="timestamp">2:52 <i id="2" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Radhe</span>
+                    <span class="songlistplay"><span class="timestamp">3:02 <i id="3" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Ghungroo</span>
+                    <span class="songlistplay"><span class="timestamp">2:25 <i id="4" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Nashe si chadgai</span>
+                    <span class="songlistplay"><span class="timestamp">3:47 <i id="5" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Zaroori tha</span>
+                    <span class="songlistplay"><span class="timestamp">5:16 <i id="6" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Zalima</span>
+                    <span class="songlistplay"><span class="timestamp">2:51 <i id="7" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Hawayein</span>
+                    <span class="songlistplay"><span class="timestamp">4:51 <i id="8" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="Source/playing.gif" width="42px" alt="" id="gif"><span id="masterSongName">Tujhe kitna chahne lage - Arijit Singh</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c036c86aae.js" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
